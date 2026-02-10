@@ -1,0 +1,121 @@
+/* =========================
+   Global / Navbar Styles
+========================= */
+
+.btn {
+    margin: 10px;
+    border:1px #00aeff;
+    border-radius: 5px;
+    box-shadow: 2px 3px 20px #f3046856 !important;
+}
+.card {
+    margin: 10px;
+    border:1px #00aeff;
+    border-radius: 5px;
+    box-shadow: 7px 13px 20px #3804f31a;
+}
+
+.header-bar {
+    background: white;
+    padding: 0.8rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e2e8f0;
+    box-shadow: 0px 6px 25px rgba(4, 88, 243, 0.349);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 3rem;
+    border:2px #00aeff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #094f9e28;
+}
+
+.nav-link {
+    color: #0e4ea7c2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    letter-spacing: 0.2px;
+    /* transition: color 0.2s; */
+}
+
+.nav-link:hover {
+    background: linear-gradient(135deg, #00aeff70, #0066ff63);
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(0, 162, 255, 0.377);
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #00aeff70, #0066ff63);
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 15px rgba(0, 162, 255, 0.377);
+}
+
+
+/* dom-practice.html Styles*/
+.action-btn {
+    /* action buttons inside dom-practice.html container */
+    margin: 10px;
+    border:1px #00aeff;
+    border-radius: 5px;
+    box-shadow: 2px 3px 20px #f3046856 !important;
+}
+
+.card-header {
+    background-color: #74b9e77e;
+    border:1px #00aeff;
+    border-radius: 5px;
+    box-shadow: 7px 13px 20px #04d7f32f !important;
+}
+
+/* color-changer.html Styles */
+.gradient-card {
+    background: linear-gradient(
+        135deg,
+        rgba(241, 16, 0, 0.493),
+        rgba(31, 224, 47, 0.445),
+        rgba(31, 92, 224, 0.445)
+    );
+    margin: 10px;
+    border:1px #00aeff;
+    border-radius: 5px;
+        box-shadow: 7px 13px 20px #04d7f32f !important;
+    height: 170px !important;
+    justify-content: center;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    line-height: 10px;
+    font-weight: bold;
+    text-decoration: underline 3px;
+    transition: all 0.75s ease;
+}
+
+
+/* text-highlighter.html Styles */
+.highlight {
+    background-color: yellow;
+    padding: 10px;
+    border-left: 4px solid orange;
+    transition: all 0.5s ease;
+}
+
+
+
+

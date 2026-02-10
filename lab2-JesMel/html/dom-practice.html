@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="../styles/style.css">
+
+        <title>DOM Selection Practice</title>
+        
+        
+    </head>
+
+    <body>
+        <div class="container-fluid">
+
+            <div class="header-bar">
+               <nav class="main-nav">
+                    <a href="./dom-practice.html" class="nav-link active" style="font-size: 20px;">Part 1</a>
+                    <a href="./color-changer.html" class="nav-link" style="font-size: 20px;">Part 2</a>
+                    <a href="./text-highlighter.html" class="nav-link" style="font-size: 20px;">Part 3</a>
+                </nav>
+            </div>
+
+
+            <div class="card" style="background-color: rgba(0, 0, 0, 0.021);">
+                <div class="card-body">
+                    <div class="card" style="background-color: #74e7d442;">
+                        <div class="card-header">
+                            <div class="row m-5">
+                                <div class="col-sm-12 text-center">
+                                    <h1 class="m-0" id="title">DOM Selection Lab</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <br><hr><br>
+                </div>
+                
+                <div class="card-body">
+                    <div class="card">
+                        <div class="row m-5">
+                            <h2 class="small-heading">Paragraphs:</h2><br>
+                            <div class="col-sm-12 text-center">
+                                
+                                <p class="info">This is the first paragraph</p><hr>
+                                <p class="info">This is the second paragraph</p><hr>
+                                <p class="info">This is the third paragraph</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <br><hr><br>
+                </div>
+
+                <!-- DIV WITH CONTAINER #2-->
+                <div class="container" id="container">
+                    <div class="card-body">
+                        <div class="card">
+                            <div class="row m-3">
+                            <h3 class="small-heading">Buttons:</h3>
+                        </div>
+
+                            <div class="row m-2 justify-content-center">
+
+                               
+                                <!-- btn 1 -->
+                                <div class="p-2">
+                                    <button class="btn btn-info action-btn">Action 1</button>
+                                </div>
+                                    
+                                <!-- btn 2 -->
+                                <div class="p-2">
+                                    <button class="btn btn-info action-btn">Action 2</button>
+                                </div>
+
+                                <!-- btn 3 -->
+                                <div class="p-2">
+                                    <button class=" btn btn-warning" id="special-btn">Special</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../scripts/dom-practice.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+
+</html>
